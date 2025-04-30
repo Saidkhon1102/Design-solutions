@@ -1,0 +1,37 @@
+:root {
+  /* Colors */
+  --purple: #755cde;
+  --orange: #f6a560;
+  --pink: #f39e9e;
+  --coral: #eb7565;
+  --teal: #61c4b7;
+  --dark-purple: #552049;
+  --black: #030303;
+  --olive: #7a746e;
+  --off-white: #fff7f0;
+
+  /* Typography */
+  --font-family: "Plus Jakarta Sans", sans-serif;
+  --heading-l-size: 56px;
+  --heading-l-line: 70px;
+  --heading-m-size: 40px;
+  --heading-m-line: 51px;
+  --heading-s-size: 32px;
+  --heading-s-line: 40px;
+  --body-size: 18px;
+  --body-line: 28px;
+
+  /* Font weights */
+  --font-bold: 700;
+  --font-medium: 500;
+
+  /* Buttons */
+  --btn1-bg-idle: var(--black);
+  --btn1-bg-hover: var(--purple);
+  --btn2-bg-idle: var(--coral);
+  --btn2-bg-hover: var(--orange);
+
+  /* Arrows */
+  --arrow-idle-bg: var(--black);
+  --arrow-hover-bg: var(--purple);
+}
