@@ -79,5 +79,124 @@
             width="445"
             height="445"
           />
+          <div class="portfolio__content">
+            <h2 class="portfolio__title title">
+              I’m Amy, and I’d love to work on your next project
+            </h2>
+            <p class="portfolio__description">
+              I love working with others to create beautiful design solutions.
+              I’ve designed everything from brand illustrations to complete
+              mobile apps. I’m also handy with a camera!
+            </p>
+            <a href="#" class="btn btn--coral">Free Consultation</a>
+          </div>
+        </div>
+      </section>
+      <!-- Work -->
+      <section class="work container">
+        <h3 class="work__title">My Work</h3>
+        <div class="work__images">
+          <img
+            src="./images/image-slide-1.jpg"
+            alt="work img"
+            class="wark__img"
+            width="540"
+            height="360"
+          />
+          <img
+            src="./images/image-slide-2.jpg"
+            alt="work img"
+            class="wark__img"
+            width="540"
+            height="360"
+          />
+          <img
+            src="./images/image-slide-3.jpg"
+            alt="work img"
+            class="wark__img"
+            width="540"
+            height="360"
+          />
+          <img
+            src="./images/image-slide-4.jpg"
+            alt="work img"
+            class="wark__img"
+            width="540"
+            height="360"
+          />
+          <img
+            src="./images/image-slide-5.jpg"
+            alt="work img"
+            class="wark__img"
+            width="540"
+            height="360"
+          />
+        </div>
+
+        <div class="work__icons">
+          <a class="arrow" href="#">
+            <img
+              src="./images/icon-arrow-left.svg"
+              alt="arrow"
+              width="14"
+              height="16"
+            />
+          </a>
+          <a class="arrow" href="#">
+            <img
+              src="./images/icon-arrow-right.svg"
+              alt="arrow"
+              width="14"
+              height="16"
+            />
+          </a>
+        </div>
+      </section>
+      <!-- FAQ -->
+      <section class="faq">
+        <div class="faq__container container">
+          <div class="faq__about">
+            <h1 class="faq__title title">Book a call with me</h1>
+            <p class="faq__description">
+              I’d love to have a chat to see how I can help you. The best first
+              step is for us to discuss your project during a free consultation.
+              Then we can move forward from there.
+            </p>
+          </div>
+          <a href="#" class="btn btn--coral">Free Consultation</a>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <a class="site__logo" href="#">
+          <img
+            class="site__logo-img"
+            src="./images/logo.svg"
+            alt="site logo img"
+            width="64"
+            height="64"
+          />
+        </a>
+        <a class="btn btn--black" href="#">Free Consultation</a>
+      </div>
+    </footer>
+
+    <script>
+      const icon1 = document.getElementById("icon1");
+      const icon2 = document.getElementById("icon2");
+      const sitenav = document.querySelector(".sitenav");
+      icon1.addEventListener("click", (e) => {
+        sitenav.classList.toggle("hidden--item");
+        icon2.classList.toggle("hidden");
+        icon1.classList.toggle("hidden");
+      });
+      icon2.addEventListener("click", (e) => {
+        sitenav.classList.toggle("hidden--item");
+        icon2.classList.toggle("hidden");
+        icon1.classList.toggle("hidden");
+      });
+    </script>
   </body>
 </html>
